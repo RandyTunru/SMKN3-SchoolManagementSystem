@@ -1,0 +1,24 @@
+.report-box-vice-view {
+    margin: 100px 350px;
+    background-color: white;
+    width: auto;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 50%;
+    display: flex; /* Menjadikan flex container */
+    flex-direction: column; /* Menjadikan flex direction menjadi column */
+}
+
+.report-box-vice-view h5 {
+    align-self: flex-start; /* Mengatur posisi h2 ke kiri */
+    margin: 5px; /* Atur margin 0 agar tidak ada margin di dalam tombol */
+    color: gray;
+}
+
+.view-report-icon img {
+    align-self: center; /* Mengatur posisi ikon agar berada di tengah secara vertikal */
+    justify-self: center; /* Mengatur posisi ikon agar berada di tengah secara horizontal */
+}

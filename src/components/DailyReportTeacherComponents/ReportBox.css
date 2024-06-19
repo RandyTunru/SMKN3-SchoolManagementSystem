@@ -1,0 +1,27 @@
+.report-box{
+    width:70%;
+    height: 120px;
+    background-color: white;
+    margin: 40px 30px 30px 300px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    align-items: center;
+    
+}
+
+.report-status{
+    display: flex;
+    align-items: center;
+}
+
+.report-status h2 {
+    margin: 0px 10px 20px 10px ; /* Memberikan jarak antara ikon dan teks */
+    color: #E59618;
+    font-size: 14px;
+  }
+
+.pen-icon{
+    color: #E59618;
+    margin-bottom: 20px;
+}

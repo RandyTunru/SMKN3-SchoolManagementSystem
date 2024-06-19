@@ -1,0 +1,25 @@
+.fill-report-button{
+    background-color: #85929E ;
+    color: white;
+    width: 25%;
+    height: 20px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 5px;
+    display: flex; /* Menjadikan flex container */
+    justify-content: center; /* Mengatur konten ke tengah secara horizontal */
+    align-items: center; /* Mengatur konten ke tengah secara vertikal */
+    padding: 10px;
+    margin: 40px auto;
+}
+ 
+.text-report-btn{
+    margin: 5px;
+
+}
+
+.text-report-btn h2 {
+    align-items: center;
+    margin: 0; /* Atur margin 0 agar tidak ada margin di dalam tombol */
+}
+

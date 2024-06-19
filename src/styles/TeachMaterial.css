@@ -1,0 +1,19 @@
+.content-wrapper-teach{
+    width: 40%;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 300px 300px 100px 300px;
+    border-radius: 5px;
+    align-items: center;
+}
+.box-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.content-wrapper-teach h2{
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: normal;
+    
+}

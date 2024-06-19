@@ -1,0 +1,78 @@
+/* Header.css */
+.header {
+  background: #FF8C00;
+  width: 100%;
+  height: 80px;
+  color: white;
+  font-family: 'Poppins', 'Arial';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 30;
+  position: fixed; /* Mengatur posisi header tetap */
+  top: 0; /* Menempatkan header di bagian atas browser */
+  left: 0; /* Menempatkan header di kiri browser */
+  right: 0; /* Menempatkan header di kanan browser */
+}
+
+.header h2{
+  margin-left: 5vw;
+}
+  
+  
+  
+ 
+  
+.dropdown {
+  position: relative;
+}
+
+.dropdown-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2vw;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: block;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  color: black;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.no-underline-link {
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-content ul li {
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.dropdown-content ul li:hover {
+  background-color: #f0f0f0;
+}
+
+.btn-dropdown{
+  margin-left: 3px;
+}
+ 
+  
